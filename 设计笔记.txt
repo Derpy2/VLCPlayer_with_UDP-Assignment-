@@ -1,0 +1,34 @@
+
+bool m_bNew;//播放的是否为新的视频
+libvlc_instance_t* m_vlcinst;//vlc实例
+libvlc_media_player_t* m_vlcMplay;//vlc播放器
+libvlc_media_t* m_vlcMedia;//vlc播放视音频
+libvlc_time_t m_TotalTime;//视频总时间
+BOOL m_isRTSP;//未使用变量
+CSliderCtrl m_SliderPlayer;//播放器进度条
+CString m_VideoPath;//播放视频路径
+CSliderCtrl m_SliderVolume;//播放器声音滑动条
+UINT_PTR m_playerTimer;//计时器指针
+bool m_bIsRtsp;//判断播放的是本地视频还是直播流
+
+
+
+UpdateData(bool):变量实时更新
+	
+GetDlgItem(控件ID):获取控件句柄，为之后对其使用函数做准备
+
+EnableWindow(bool):禁用/启用控件 
+
+SetTimer(计时器名称，时间间隔，NULL(OnTime))
+
+libvlc_media_player_get_length(播放器句柄)获取对象播放器播放视频的长度
+
+GetPos() 获得对象滑动器的滑动位置
+
+libvlc_media_player_set_time(播放器句柄, 时长)设置播放器进度条的时长
+
+libvlc_audio_set_volume(播放器句柄, 音量值)设置播放器的音量
+
+rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov
+
+https://multiplatform-f.akamaihd.net/i/multi/april11/sintel/sintel-hd_,512x288_450_b,640x360_700_b,768x432_1000_b,1024x576_1400_m,.mp4.csmil/master.m3u8

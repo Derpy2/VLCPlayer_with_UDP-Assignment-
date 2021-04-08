@@ -1,0 +1,4 @@
+E:\VisualStudioFiles\VLC1\Debug\VLC1.exe
+E:\VisualStudioFiles\VLC1\Debug\VLC1.pdb
+E:\VisualSCode\VLC1\Debug\VLC1.exe
+E:\VisualSCode\VLC1\Debug\VLC1.pdb

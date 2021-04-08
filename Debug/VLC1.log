@@ -1,0 +1,19 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  VLC1Dlg.cpp
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_new，函数 "protected: virtual int __thiscall CVLC1Dlg::OnInitDialog(void)" (?OnInitDialog@CVLC1Dlg@@MAEHXZ) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_new_location，函数 "public: void __thiscall CVLC1Dlg::OnClickedPlay(void)" (?OnClickedPlay@CVLC1Dlg@@QAEXXZ) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_new_path，函数 "public: void __thiscall CVLC1Dlg::OnClickedPlay(void)" (?OnClickedPlay@CVLC1Dlg@@QAEXXZ) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_release，函数 "public: void __thiscall CVLC1Dlg::OnClickedPlay(void)" (?OnClickedPlay@CVLC1Dlg@@QAEXXZ) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_parse，函数 "public: void __thiscall CVLC1Dlg::OnTimer(unsigned int)" (?OnTimer@CVLC1Dlg@@QAEXI@Z) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_player_new_from_media，函数 "public: void __thiscall CVLC1Dlg::OnClickedPlay(void)" (?OnClickedPlay@CVLC1Dlg@@QAEXXZ) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_player_release，函数 "public: void __thiscall CVLC1Dlg::OnClickedPlay(void)" (?OnClickedPlay@CVLC1Dlg@@QAEXXZ) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_player_play，函数 "public: void __thiscall CVLC1Dlg::OnClickedPlay(void)" (?OnClickedPlay@CVLC1Dlg@@QAEXXZ) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_player_pause，函数 "public: void __thiscall CVLC1Dlg::OnClickedPause(void)" (?OnClickedPause@CVLC1Dlg@@QAEXXZ) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_player_stop，函数 "public: void __thiscall CVLC1Dlg::OnClickedStop(void)" (?OnClickedStop@CVLC1Dlg@@QAEXXZ) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_player_set_hwnd，函数 "public: void __thiscall CVLC1Dlg::OnClickedPlay(void)" (?OnClickedPlay@CVLC1Dlg@@QAEXXZ) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_player_get_length，函数 "public: void __thiscall CVLC1Dlg::OnClickedPlay(void)" (?OnClickedPlay@CVLC1Dlg@@QAEXXZ) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_player_get_time，函数 "public: void __thiscall CVLC1Dlg::OnTimer(unsigned int)" (?OnTimer@CVLC1Dlg@@QAEXI@Z) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_player_set_time，函数 "public: void __thiscall CVLC1Dlg::OnHScroll(unsigned int,unsigned int,class CScrollBar *)" (?OnHScroll@CVLC1Dlg@@QAEXIIPAVCScrollBar@@@Z) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_media_player_get_state，函数 "public: void __thiscall CVLC1Dlg::OnTimer(unsigned int)" (?OnTimer@CVLC1Dlg@@QAEXI@Z) 中引用了该符号
+VLC1Dlg.obj : error LNK2019: 无法解析的外部符号 _libvlc_audio_set_volume，函数 "public: void __thiscall CVLC1Dlg::OnHScroll(unsigned int,unsigned int,class CScrollBar *)" (?OnHScroll@CVLC1Dlg@@QAEXIIPAVCScrollBar@@@Z) 中引用了该符号
+E:\VisualSCode\VLC1\Debug\VLC1.exe : fatal error LNK1120: 16 个无法解析的外部命令
